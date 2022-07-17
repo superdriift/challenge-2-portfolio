@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background: rgb(224, 224, 222);
+}
+
+#prophoto {
+    border: solid white 1px;
+    margin: 15px
+}
+
+header {
+    background: grey;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+h1 {
+    padding-left: 85px;
+    padding-bottom: 115px;
+    font-size: 30pt;
+    display: block;
+    align-self: center;
+    padding-top: 30pt;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    align-items: end;
+    padding-right: 0;
+}
+
+li{
+    font-size: 18pt;
+    margin-right: 20px;
+}
+
+li:hover {
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: solid 2pt darkgreen;
+    font-size: 20pt;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    margin-top: 5%;
+    padding-right: 7px;
+    align-content: center;
+    text-align: right;
+    float:left;
+    width: 20%;
+    max-width: 150px;
+    min-width: none;
+    font-size: 20pt;
+}
+
+p {
+    border-left: solid 3pt navy;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 3%;
+}
